@@ -37,6 +37,11 @@
     <Content Include="faces\obama.jpg" />
     <Content Include="faces\papu.jpg" />
     <Content Include="requirements.txt" />
+    <Content Include="test\test.jpg" />
+    <Content Include="test\test2.jpg" />
+    <Content Include="test\test3.jpg" />
+    <Content Include="test\test4.jpg" />
+    <Content Include="test\test5.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env38\">
@@ -60,6 +65,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="faces\" />
+    <Folder Include="test\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

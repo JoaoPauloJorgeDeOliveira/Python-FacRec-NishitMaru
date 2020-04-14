@@ -338,3 +338,9 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
+
+# Virtual enviroments
+# Ignore all files or folders named "venv" or "env". Ref: https://stackoverflow.com/questions/8981472/ignore-all-files-with-the-same-name-in-git 
+**/venv
+**/env
+**/env38
